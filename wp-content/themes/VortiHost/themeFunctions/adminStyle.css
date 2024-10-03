@@ -1,0 +1,63 @@
+.adminbody{
+	width:1024px;
+	float:left;
+	clear:both;
+	margin:0 auto;
+	padding:20px;
+	
+}
+.adminhead{
+	width:100%;
+	float:left;
+	clear:both;
+	background:url("bg.jpg") repeat-y scroll center top #F8F8F8;
+}
+.adminleft{
+	float:left;
+	width:40%;
+	padding:20px;
+	color:#fff;
+	font-family: 'dosisextralight';
+    font-size: 50px;
+    line-height: 52px;
+}
+.adminright{
+	float:right;
+	width:40%;
+	padding:20px;
+}
+.admininner{
+	clear:both;
+	border:3px dotted #043262 ;
+	background: #F8F8F8;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 50px 0;
+	font-family: 'dosisextralight';
+}
+/*Cpanel*/
+.logotitleText{
+	text-align:center;
+	color:#B40A0D;
+}
+.logotitleText h2{color:#043262;}
+.titleText{
+	font-size:20px;
+	color:#043262;
+	font-weight:bold;
+	margin-top:20px;
+	margin-left:10px;
+	float:left;
+	width:100%;
+	clear:both;
+}
+.cp_separator{
+
+}
+.cButton{
+	background:#73BD14 !important;
+	color:#fff !important;
+	font-weight:bold;
+	padding:10px;
+	margin:10px 0px;
+	border:0px;
+}

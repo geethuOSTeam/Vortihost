@@ -1,0 +1,60 @@
+/*============================================================
+ *Global Styles
+ *===========================================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body {
+  @extend html;
+  font-size: $base-font-size !important;
+  font-family: $base-font-family;
+  color: $base-color;
+  position: relative;
+  background-color: $body-background-color;
+  -ms-touch-action: pan-y;
+  overflow-x: hidden;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+p {
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  margin: 0;
+
+  &:first-letter {
+    text-transform: capitalize
+  }
+}
+
+figure {
+  margin: 0;
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

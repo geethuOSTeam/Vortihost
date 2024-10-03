@@ -1,0 +1,82 @@
+
+
+/*===========================================
+Animation 
+===========================================*/
+
+@keyframes live-animation {
+  0% {
+    transform: scale(1);   
+  }
+  50% {
+    transform: scale(1.6);  
+  }
+  100% {
+    transform: scale(1);   
+  }
+}
+
+
+@keyframes moving-01 {
+  0% {
+    opacity: 0.6;   
+  }
+  100% {
+    opacity: 1;   
+  }
+}
+@keyframes moving-02 {
+  0% {
+
+    opacity: 1;   
+  }
+  100% {
+    opacity: 0.6;   
+  }
+}
+
+
+@keyframes slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes plans-up {
+  0% {
+    opacity: 0;
+    transform:  scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes plans-up-2 {
+        0% {
+          opacity: 0;    
+          transform: translateY(15px);
+        }
+        100% {
+          opacity: 1;  
+          transform: translateY(0);  
+        }
+      }
+
+
+      @keyframes creed-animation {
+        0% {
+          opacity: 0;   
+        
+        }
+        100% {
+          opacity: 1;             
+        }
+      }
+
